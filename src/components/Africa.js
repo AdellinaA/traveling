@@ -1,5 +1,5 @@
 import React from 'react';
-// import Price from './Price';
+import './style.css';
 
 
 
@@ -8,7 +8,7 @@ const Africa = (props) => {
    
     
     return (
-        <div>
+        <div className="africaDiv">
             <p>Traveling to Africa will cost {props.price}, you will stay {props.days} and you will travel by {props.travelBy}</p>
             {/* <Price /> */}
         </div>

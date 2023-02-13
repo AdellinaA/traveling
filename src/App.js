@@ -8,6 +8,7 @@ import Europa from './components/Europe';
 function App() {
   return (
     <div>
+      <h1>React Practice ⚛️</h1>
       <Africa price='500$' days='7 Days' travelBy='Car' />
       <America price='600$' days='3 Days' travelBy='Plane'/>
       <Asia price='800$'  days='5 Days' travelBy='Bus'/>

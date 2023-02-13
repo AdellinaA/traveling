@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Price from './Price';
+import './style.css';
 
 class Asia extends Component {
     constructor(props) {
@@ -16,9 +17,9 @@ changeMagicalStatus() {
 }
     render () {
         return (
-            <div>
+            <div className='asiaDiv'>
             <p>Welcome {this.state.magicalStatus}!</p>
-            <button onClick={() => this.changeMagicalStatus() }>Magical Discount%</button>
+            <button onClick={() => this.changeMagicalStatus() }>Magical Discount %</button>
             <Price price='500$' />
             </div>
         )

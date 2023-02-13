@@ -1,0 +1,20 @@
+.africaDiv, .asiaDiv, .europeDiv, .americaDiv, .priceDiv {
+    margin: 2vw 2vw;
+    padding: .9vw;
+    background-color: darkorange;
+    border: brown;
+    border-radius: 10px ;
+    width: fit-content;
+    font-size: 1.3vw;
+    color: aliceblue;
+}
+
+button {
+    padding: .9vw;
+    font-weight: bold;
+    border: red 1px solid;
+    outline: azure 3px solid;
+    font-size: 1vw;
+    position: sticky;
+    margin-left: 40%;
+}
