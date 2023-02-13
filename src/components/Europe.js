@@ -7,7 +7,7 @@ import axios from 'axios';
 function fetchWeather() {
     return new Promise(async (res, rej) => {
         try {
-            const response = await axios.get('https://api.weatherapi.com/v1/current.json?key=9012fa8dbbd54358b19215624231302&q=Romania&aqi=no');
+            const response = await axios.get(`https://api.weatherapi.com/v1/current.json?key=${process.env.REACT_APP_WEATHER_API_KEY}&q=Romania&aqi=no`);
             if (response && response?.data) {
                 const result = response.data;
                 const obj = {
