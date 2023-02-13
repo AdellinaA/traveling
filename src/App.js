@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Africa from './components/Africa';
 import America from './components/America';
