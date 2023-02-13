@@ -10,10 +10,9 @@ function App() {
     <div>
       <h1>React Practice ⚛️</h1>
       <Africa price='500$' days='7 Days' travelBy='Car' />
-      <America price='600$' days='3 Days' travelBy='Plane'/>
-      <Asia price='800$'  days='5 Days' travelBy='Bus'/>
-      <Europa price='300$' days='14 Days'travelBy='Train' />
-
+      <America price='600$' days='3 Days' travelBy='Plane' />
+      <Asia price='800$' days='5 Days' travelBy='Bus' />
+      <Europa price='300$' days='14 Days' travelBy='Train' />
     </div>
   );
 }

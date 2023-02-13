@@ -4,9 +4,6 @@ import './style.css';
 
 
 const Price = (props) => {
-    console.log(props);
-   
-    
     return (
         <div className='priceDiv'>
             <p>Traveling around the world in this period has a good Discount {props.price}</p>
