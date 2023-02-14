@@ -8,7 +8,7 @@ function fetchWeather() {
     return new Promise(async (res, rej) => {
         try {
             const response = await axios.get(`https://api.weatherapi.com/v1/current.json?key=${process.env.REACT_APP_WEATHER_API_KEY}&q=Romania&aqi=no`);
-            if (response && response?.data) {
+            if (response ) {
                 const result = response.data;
                 const obj = {
                     location: result.location.name,
